@@ -52,4 +52,16 @@ This repository contains a C program demonstrating the concept of **Call by Valu
 
 ---
 
+# Call by Reference in C
 
+## Description
+This repository contains a C program demonstrating the **Call by Reference** concept. In this approach, instead of passing a copy of the variable's value (as in Call by Value), the address (reference) of the variable is passed to the function, allowing the function to modify the original variable.
+
+---
+
+## Features
+- **Call by Reference**: The program uses pointers to pass the memory address of variables to a function.
+- **Modifies Original Values**: Changes made inside the function are reflected in the calling function.
+- **Demonstrates Pointer Usage**: Shows how pointers are used to access and modify values in memory.
+
+---
