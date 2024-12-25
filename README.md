@@ -65,3 +65,32 @@ This repository contains a C program demonstrating the **Call by Reference** con
 - **Demonstrates Pointer Usage**: Shows how pointers are used to access and modify values in memory.
 
 ---
+
+# Bubble Sort in C
+
+## Description
+This repository contains a C program implementing the **Bubble Sort** algorithm. Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+
+---
+
+## Features
+- **Bubble Sort Implementation**: The program sorts an array of integers in ascending order.
+- **Element Swapping**: If two adjacent elements are in the wrong order, they are swapped.
+- **Efficiency**: The algorithm continues to compare adjacent elements until the array is sorted.
+
+---
+
+## Code Overview
+
+### **1. Bubble Sort Logic**
+The program performs the following:
+- Iterates through the array multiple times, each time comparing adjacent elements.
+- If an element is greater than the next one, it swaps them.
+- The largest elements "bubble up" to the end of the array after each iteration.
+
+### **2. Main Function**
+- Accepts the array size and elements from the user.
+- Calls the Bubble Sort algorithm to sort the array.
+- Displays the sorted array.
+
+---
