@@ -1,2 +1,2 @@
-# C peogramming
+# C programming
 ## C code from start
