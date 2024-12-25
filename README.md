@@ -124,3 +124,28 @@ The program also explores various operations on pointers, such as pointer arithm
 - The program demonstrates accessing the next memory location using pointer arithmetic (`p+1`, `p+2`, etc.) and dereferencing them.
 
 ---
+
+# Recursive Linear Search in C
+
+## Description
+This repository contains a C program implementing a **recursive linear search** algorithm. In this program, the search function uses recursion to find whether a target element exists in an array. The function iteratively checks each element until it finds the target or reaches the end of the array.
+
+---
+
+## Features
+- **Recursive Linear Search**: The program searches for an element in the array using recursion instead of iteration.
+- **Dynamic Input**: Takes input from the user for the array elements and the key to search for.
+- **Element Found Check**: Returns a message indicating whether the key element is found in the array.
+
+---
+
+## Code Overview
+
+### **1. Recursive Linear Search**
+The program uses recursion in the `search` function to check if the element exists at each index of the array.
+
+### **2. Main Function**
+- The main function accepts the array size, elements, and the target element from the user.
+- It calls the `search` function and displays whether the target element is found or not.
+
+---
