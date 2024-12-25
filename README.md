@@ -1,2 +1,2 @@
-# Binary-Search
+# C peogramming
 ## C code from start
