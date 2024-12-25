@@ -38,4 +38,18 @@ The function `linearsearch` performs the following:
 
 ---
 
+# Call by Value in C
+
+## Description
+This repository contains a C program demonstrating the concept of **Call by Value**. In this method, a copy of the actual argument is passed to the function, ensuring that changes made to the parameter inside the function do not affect the original variable in the calling function.
+
+---
+
+## Features
+- Demonstrates the behavior of Call by Value using a simple example.
+- Explains how values are copied and why the original variable remains unchanged.
+- Includes a function `modifyValue` that modifies a local copy of the variable.
+
+---
+
 
