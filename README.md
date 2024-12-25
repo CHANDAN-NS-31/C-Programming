@@ -94,3 +94,33 @@ The program performs the following:
 - Displays the sorted array.
 
 ---
+
+# Pointer to Pointer in C
+
+## Description
+This repository contains a C program demonstrating the concept of **Pointer to Pointer** (also known as a double pointer). It uses multiple levels of indirection to modify and access the value of a variable through its pointers.
+
+The program also explores various operations on pointers, such as pointer arithmetic and dereferencing pointers at different levels.
+
+---
+
+## Features
+- **Pointer to Pointer**: Demonstrates the concept of multiple levels of indirection using pointers.
+- **Pointer Arithmetic**: Performs pointer arithmetic to access elements in memory.
+- **Dereferencing Pointers**: Accesses and modifies values at different levels using dereferencing operators (`*`).
+
+---
+
+## Code Overview
+
+### **1. Pointer to Pointer Logic**
+- The program uses:
+  - `*p` (Pointer to `a`).
+  - `**q` (Pointer to `p`).
+  - `***r` (Pointer to `q`).
+- It modifies the value of `a` at different levels of indirection.
+
+### **2. Pointer Arithmetic**
+- The program demonstrates accessing the next memory location using pointer arithmetic (`p+1`, `p+2`, etc.) and dereferencing them.
+
+---
